@@ -8,7 +8,7 @@ from flask_cors import CORS
 print("\n")
 ascii_banner = pyfiglet.figlet_format("CookieStalker")
 print(ascii_banner)
-print("calfcrusher@inventati.org | For educational only.\n")
+print("calfcrusher@inventati.org | For educational use only.\n")
 
 IP = input("Enter IP: ")
 PORT = input("Enter port: ")
