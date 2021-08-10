@@ -9,6 +9,6 @@ The user loads the infected page (reflected or stored injections) and has their 
 
 `$ cd CookieStalker && pip install -r requirements.txt`
 
-`$ python CookieStalker.py`
+`$ python3 CookieStalker.py`
 
 *Please note that i'm not responsible for any damages and illegal use. Don't be a twat!*
