@@ -41,7 +41,7 @@ def index():
             fd.write(str(cookies))
         print(cookies)
 
-    return 'Success!'
+    return 'OK'
 
 
 app.run(host=IP, port=PORT)
