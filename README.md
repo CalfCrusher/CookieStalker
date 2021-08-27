@@ -1,4 +1,4 @@
-## AJAX cookie stealer + payload generator <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Blue_Python_3.6%2B_Shield_Badge.svg" />
+## Python AJAX cookie stealer + payload generator <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Blue_Python_3.6%2B_Shield_Badge.svg" />
 
 **CookieStalker** is just a simple tool that spawn a Flask web server using flask-CORS, generate payload to launch and wait incoming cookies that are sent through **AJAX** that allows us to send a request from the victim's web browser to our cookie stealer **without** refreshing the page and, most importanty, **without** sending additional HTTP traffic to the target server.
 
